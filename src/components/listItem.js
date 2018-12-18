@@ -20,6 +20,7 @@ class ListItem extends Component {
         UIManager.setLayoutAnimationEnabledExperimental(true);
     }
   }
+
   componentWillUpdate() {
     LayoutAnimation.spring();
   }
